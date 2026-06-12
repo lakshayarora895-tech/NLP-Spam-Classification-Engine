@@ -44,7 +44,7 @@ class TextPreprocessor(BaseEstimator, TransformerMixin):
         return cleaned_text
 # =====================================================================
 
-MODEL_PATH = '/content/spam_filter_model.pkl'
+MODEL_PATH = 'spam_filter_model.pkl'
 
 def load_model():
     if not os.path.exists(MODEL_PATH):
